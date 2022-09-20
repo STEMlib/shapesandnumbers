@@ -9,7 +9,7 @@
 	const url = `https://pudding.cool/assets/data/stories.json?v=${v}`;
 
 	const links = [
-		{ name: "about", url: "https://pudding.cool/about" },
+		{ name: "about", url: "https://brandontouchet.com/" },
 		{ name: "facebook", url: "https://facebook.com/pudding.viz/" },
 		{ name: "twitter", url: "https://twitter.com/puddingviz/" },
 		{

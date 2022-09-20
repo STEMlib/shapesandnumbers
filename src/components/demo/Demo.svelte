@@ -1,5 +1,6 @@
 <script>
 	import DemoLink from "$components/demo/Demo.Link.svelte";
+	import DemoLinkTest from "$components/demo/Demo.LinkTest.svelte";
 	import DemoImg from "$components/demo/Demo.Img.svelte";
 	import DemoButtonSet from "$components/demo/Demo.ButtonSet.svelte";
 	import DemoRange from "$components/demo/Demo.Range.svelte";
@@ -11,6 +12,11 @@
 	import DemoSvelteComponent from "$components/demo/Demo.SvelteComponent.svelte";
 	import DemoScrolly from "$components/demo/Demo.Scrolly.svelte";
 </script>
+
+<div id="test">
+	<h1>Test</h1>
+	<DemoLinkTest />
+</div>
 
 <div id="demo">
 	<h1>Demo</h1>
@@ -28,6 +34,12 @@
 </div>
 
 <style>
+	#test {
+		max-width: 40rem;
+		padding: 16px;
+		margin: 0 auto;
+	}
+
 	#demo {
 		max-width: 40rem;
 		padding: 16px;
